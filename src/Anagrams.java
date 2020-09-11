@@ -14,7 +14,7 @@ public class Anagrams {
         if(Arrays.equals(k,l) && (k.length==l.length)){
             System.out.println("Two given strings are anagrams");
         } else {
-            System.out.println("Two given strings are anagrams");
+            System.out.println("Two given strings are not anagrams");
         }
     }
 }
