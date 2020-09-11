@@ -10,7 +10,6 @@ public class FindUnionOfElements {
         List<Integer> removingDuplicates = new ArrayList<>();
 
         //Find intersection of Elements use retainAll method
-
         listOne.addAll(listTwo);
 
         // Remove Duplicates from ListOne
@@ -20,6 +19,7 @@ public class FindUnionOfElements {
                 removingDuplicates.add(i);
             }
         }
+
         System.out.println(removingDuplicates);
     }
 }
