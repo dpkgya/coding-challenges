@@ -17,9 +17,9 @@ public class checkValidParenthesis {
                     char pop_value = stack.pop();
                     if(s.charAt(i) == ')' && pop_value != '(') {
                         System.out.println("NO");;
-                    } else if(s.charAt(i) == '}' && pop_value == '{'){
+                    } else if(s.charAt(i) == '}' && pop_value != '{'){
                         System.out.println("NO");;
-                    } else if(s.charAt(i) == ']' && pop_value == '['){
+                    } else if(s.charAt(i) == ']' && pop_value != '['){
                         System.out.println("NO");;
                     }
                 }
