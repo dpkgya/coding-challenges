@@ -15,7 +15,6 @@ public class CheckForDuplicateCharacters {
     public static void characterCount(String str){
 
         Map<Character, Integer> hashMap = new HashMap<>();
-
         char[] chars = str.toCharArray();
         for(Character c : chars){
             if(hashMap.containsKey(c)){
@@ -36,5 +35,4 @@ public class CheckForDuplicateCharacters {
         String str = "Deeppak";
         characterCount(str);
     }
-
 }
